@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.propertyrentalapp">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".helpScreens.webURL"></activity>
+        <activity android:name=".helpScreens.BrowseTopic4" />
+        <activity android:name=".helpScreens.BrowseTopic3" />
+        <activity android:name=".helpScreens.BrowseTopic2" />
+        <activity android:name=".helpScreens.FAQTopic4" />
+        <activity android:name=".helpScreens.FAQTopic3" />
+        <activity android:name=".helpScreens.FAQTopic2" />
+        <activity android:name=".helpScreens.BrowseTopic1" />
+        <activity android:name=".helpScreens.FAQTopic1" />
+                <activity android:name=".HelpActivity" />
+        <activity android:name=".SingleResult" />
+        <activity android:name=".Filter" />
+        <activity android:name=".ApartmentsActivity" />
+         <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".userLogin" />
+        <activity android:name=".userRegistration" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

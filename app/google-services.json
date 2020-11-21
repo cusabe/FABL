@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "965672450415",
+    "firebase_url": "https://rental-property-project.firebaseio.com",
+    "project_id": "rental-property-project",
+    "storage_bucket": "rental-property-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:965672450415:android:f8603471164b7fa9b4d09a",
+        "android_client_info": {
+          "package_name": "com.example.propertyrentalapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "965672450415-cp8b81d69v9odk3cibfik99o4crckp25.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXp4ebD7U1TX--KZgp9YLHZL55n0Wwrms"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "965672450415-cp8b81d69v9odk3cibfik99o4crckp25.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
